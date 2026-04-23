@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Элементы решения/">
+    <File Path="Player.cs" />
+  </Folder>
   <Project Path="SlotMachine.csproj" />
 </Solution>
