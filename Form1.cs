@@ -6,5 +6,10 @@ namespace SlotMachine
         {
             InitializeComponent();
         }
+
+        private void lblSlot1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
