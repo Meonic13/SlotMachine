@@ -2,6 +2,7 @@
   <Folder Name="/Элементы решения/">
     <File Path="Player.cs" />
     <File Path="Symbols.cs" />
+    <File Path="WinChecker.cs" />
   </Folder>
   <Project Path="SlotMachine.csproj" />
 </Solution>
