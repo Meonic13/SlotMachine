@@ -43,7 +43,7 @@ namespace SlotMachine
             lblMessage.Text = game.GetResultMessage();
 
             // Проверяем не закончились ли деньги
-            if (!game.Player.IsBroke())
+            if (game.Player.IsBroke())
             {
                 MessageBox.Show("Игра окончена! У вас закончились деньги");
                 btnSpin.Enabled = false; // Блокируем кнопку

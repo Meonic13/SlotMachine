@@ -51,7 +51,6 @@
             lblSlot1.TabIndex = 0;
             lblSlot1.Text = "🍒";
             lblSlot1.TextAlign = ContentAlignment.MiddleCenter;
-            lblSlot1.Click += lblSlot1_Click;
             // 
             // lblSlot2
             // 
@@ -88,6 +87,7 @@
             btnSpin.TabIndex = 3;
             btnSpin.Text = "🎰 КРУТИТЬ";
             btnSpin.UseVisualStyleBackColor = false;
+            btnSpin.Click += btnSpin_Click;
             // 
             // lblBalanceTitle
             // 
