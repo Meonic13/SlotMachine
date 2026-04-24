@@ -37,6 +37,7 @@
             lblBetTitle = new Label();
             numBet = new NumericUpDown();
             lblMessage = new Label();
+            btnExit = new Button();
             ((System.ComponentModel.ISupportInitialize)numBet).BeginInit();
             SuspendLayout();
             // 
@@ -149,12 +150,27 @@
             lblMessage.Text = "пусто";
             lblMessage.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // btnExit
+            // 
+            btnExit.BackColor = Color.Red;
+            btnExit.FlatStyle = FlatStyle.Flat;
+            btnExit.Font = new Font("Segoe UI Black", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            btnExit.ForeColor = Color.White;
+            btnExit.Location = new Point(1864, 816);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(260, 67);
+            btnExit.TabIndex = 9;
+            btnExit.Text = "❌ ВЫХОД";
+            btnExit.UseVisualStyleBackColor = false;
+            btnExit.Click += btnExit_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkGreen;
             ClientSize = new Size(2206, 910);
+            Controls.Add(btnExit);
             Controls.Add(lblMessage);
             Controls.Add(numBet);
             Controls.Add(lblBetTitle);
@@ -185,5 +201,6 @@
         private Label lblBetTitle;
         private NumericUpDown numBet;
         private Label lblMessage;
+        private Button btnExit;
     }
 }
