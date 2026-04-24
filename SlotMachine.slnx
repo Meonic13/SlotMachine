@@ -5,5 +5,6 @@
     <File Path="Symbols.cs" />
     <File Path="WinChecker.cs" />
   </Folder>
+  <Project Path="../SlotMachine.Tests/SlotMachine.Tests.csproj" Id="bdd7807f-0be8-441d-9403-da5afac57b2d" />
   <Project Path="SlotMachine.csproj" />
 </Solution>
