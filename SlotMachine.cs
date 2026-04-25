@@ -18,7 +18,7 @@ namespace SlotMachine
         {
             Player = new Player(startBalance);
         }
-
+        
         public bool Spin(int bet)
         {
             Player.Bet = bet;

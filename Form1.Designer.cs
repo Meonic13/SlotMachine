@@ -133,6 +133,7 @@
             numBet.ForeColor = Color.Gold;
             numBet.Location = new Point(200, 720);
             numBet.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numBet.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numBet.Name = "numBet";
             numBet.Size = new Size(240, 50);
             numBet.TabIndex = 7;
@@ -145,7 +146,7 @@
             lblMessage.ForeColor = Color.White;
             lblMessage.Location = new Point(68, 823);
             lblMessage.Name = "lblMessage";
-            lblMessage.Size = new Size(300, 47);
+            lblMessage.Size = new Size(1051, 47);
             lblMessage.TabIndex = 8;
             lblMessage.Text = "пусто";
             lblMessage.TextAlign = ContentAlignment.MiddleCenter;
@@ -169,7 +170,7 @@
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkGreen;
-            ClientSize = new Size(2206, 910);
+            ClientSize = new Size(2864, 910);
             Controls.Add(btnExit);
             Controls.Add(lblMessage);
             Controls.Add(numBet);
